@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  font-family: verdana;
+}
+
+body {
+  text-align: center;
+  margin: 3%;
+  justify-content: center;
+  background: rgb(142, 182, 83);
+}
+.mainDiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+.container {
+  height: 80vh;
+  max-width: 370px;
+  width: 100%;
+  background: rgb(136, 194, 198);
+  border-radius: 5px;
+  padding: 1em 2em;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#input {
+  height: 40px;
+  min-width: 85%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #666;
+  color: #fff;
+  padding: 0 10px;
+  margin: 1em 0;
+}
+
+#addBtn {
+  height: 40px;
+  width: 40px;
+  border: 0;
+  margin-left: 5px;
+  border-radius: 5px;
+  background-color: #1b03f6;
+  color: #fff;
+}
+
+#input::placeholder {
+  color: rgb(210, 206, 206);
+}
+
+ul {
+  background: #eee;
+  color: #333;
+  height: 80%;
+  border-radius: 5px;
+  margin: 15px 0;
+  padding: 10px;
+}
+
+.fa-check,
+.fa-trash {
+  cursor: pointer;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+  white-space: normal;
+  word-break: break-all;
+  margin: 5px 0;
+}
+
+ul .fa-trash {
+  right: 40px;
+  color: red;
+}
